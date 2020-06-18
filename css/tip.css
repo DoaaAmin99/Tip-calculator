@@ -1,0 +1,54 @@
+body{
+    background-color: darkred;
+}
+
+#container{
+    text-align: center;
+    margin: 100px auto;
+    height:625px ;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+h1{
+   background-color: rgb(83, 20, 20);
+   color: white;
+   border-radius: 30px;
+   padding: 8px;
+   font-size: 20px;
+}
+
+input{
+    text-align: center;
+}
+
+#mybill{
+    width: 300px;
+    padding: 5px;
+}
+  
+#ServiceQuality{
+    font-size: 18px;
+    padding: 18px;
+}
+
+#people{
+    width: 300px;
+    padding: 5px;
+}
+
+button{
+    background-color: rgb(134, 37, 45);
+    color: white;
+    margin: 18px;
+    height:50px ;
+    width: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+	background-color: white;
+    color: gray;
+    transition-duration: 0.4s;
+}
