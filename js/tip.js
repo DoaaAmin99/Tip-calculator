@@ -8,8 +8,8 @@ function calculation() {
   
 
   //validate bill amount
-  if (mybill === "" || serviceQuality === 0) {
-      alert("Please enter values");
+  if (mybill === "" || serviceQuality === 0 || mybill<=0) {
+      alert("Please enter correct values");
       
     };
 
@@ -18,12 +18,11 @@ function calculation() {
       alert("please enter NUMBER OF PEOPLE")
       return;
       
-    }else{
-      people == 1; 
     }
   
+  
   //total tip
-  var total = (mybill * serviceQuality) / people;
+  var total = (mybill / people ) *serviceQuality ;
   document.getElementById("result").innerHTML = total;
 }
 
