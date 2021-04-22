@@ -60,7 +60,8 @@ class Tip{
 
   }
 }
-var tip = new Tip(mybill.value,serviceQuality.value,people.vlaue);
+
 document.getElementById("claculate").onclick = function() {
+  var tip = new Tip(mybill.value,serviceQuality.value,people.value);
    tip.calculation();
   };
